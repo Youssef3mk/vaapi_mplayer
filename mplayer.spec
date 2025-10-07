@@ -11,7 +11,7 @@ Group:          Applications/Multimedia
 License:        GPL
 URL:            http://www.mplayerhq.hu/
 Source0:        http://www.mplayerhq.hu/MPlayer/releases/mplayer-export-snapshot.tar.bz2
-Source1:        http://www.mplayerhq.hu/MPlayer/skins/Blue-1.7.tar.bz2
+Source1:        http://www.mplayerhq.hu/MPlayer/skins/Abyss-1.7.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  SDL-devel
