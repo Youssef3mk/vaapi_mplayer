@@ -10,8 +10,9 @@ Summary:        Movie player playing most video formats and DVDs
 Group:          Applications/Multimedia
 License:        GPL
 URL:            http://www.mplayerhq.hu/
-Source0:        mplayer-export-snapshot.8_FxWBHx.tar.bz2
-Source1:        http://www.mplayerhq.hu/MPlayer/skins/Abyss-1.7.tar.bz2
+Source0:        mplayer-export-snapshot.tar.bz2
+Source1:        Abyss-1.7.tar.bz2
+
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  SDL-devel
